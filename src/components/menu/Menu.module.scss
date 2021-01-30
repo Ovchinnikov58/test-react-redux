@@ -1,0 +1,24 @@
+.Menu {
+  width: 100%;
+
+  .MenuList {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    .MenuItem{
+      flex-basis: 34%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 30px;
+      background: #6060bc;
+      border-left: 1px solid #fff;
+
+      .MenuLink {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
