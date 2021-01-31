@@ -1,0 +1,26 @@
+.Attendance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  &Item {
+    margin-top: 10px;
+    border: 2px solid #6060bc;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  &Title {
+    font-size: 18px;
+  }
+
+  &Text {
+    margin-top: 15px;
+  }
+
+  &Bold {
+    font-weight: bold;
+  }
+}

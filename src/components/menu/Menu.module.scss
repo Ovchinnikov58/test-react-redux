@@ -1,7 +1,7 @@
 .Menu {
   width: 100%;
 
-  .MenuList {
+  &List {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -15,9 +15,44 @@
       background: #6060bc;
       border-left: 1px solid #fff;
 
+      .MenuDropBlock {
+        width: 100%;
+        height: 100%;
+        background-color: #6060bc;
+        position: relative;
+      }
+
       .MenuLink {
         width: 100%;
         text-align: center;
+      }
+
+      .MenuDrop {
+        width: 100%;
+        height: 100%;
+        background-color: #6060bc;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      .MenuDroped {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: -100%;
+        left: 0;
+        color: #fff;
+        background-color: #6060bc;
+        border-top: 1px solid #fff;
+        transition: display 1s ease 0s;
+      }
+
+      .MenuDropedSecond {
+        bottom: -200%;
+        left: 0;
       }
     }
   }

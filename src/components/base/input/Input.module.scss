@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
 
-  .InputItem {
+  &Item {
     width: 80%;
     padding: 12px 20px;
     border: 2px solid #6060bc;
@@ -15,13 +15,20 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    &:disabled {
+      background-color: #d0cfcf;
+    }
 
-    .InputText{
+    &Text{
       text-align: justify;
     }
 
     &Error {
-      border: 2px solid #8c2d59;
+      border: 2px solid #cb1c59;
     }
+  }
+
+  &Notice {
+    text-align: center;
   }
 }

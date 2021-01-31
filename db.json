@@ -1,0 +1,58 @@
+{
+  "lessons": [
+    {
+      "lesson": "History",
+      "middleValue": 4.666666666666667,
+      "procent": 8.333333333333334,
+      "exam": true,
+      "disRespectful": "1",
+      "respectful": "1",
+      "id": 1
+    },
+    {
+      "lesson": "English",
+      "middleValue": 4.5,
+      "procent": 8.333333333333334,
+      "exam": true,
+      "disRespectful": "1",
+      "respectful": "1",
+      "id": 2
+    },
+    {
+      "lesson": "Maths",
+      "middleValue": 4.666666666666667,
+      "procent": 50,
+      "exam": false,
+      "disRespectful": "1",
+      "respectful": "1",
+      "id": 3
+    },
+    {
+      "lesson": "chemistry",
+      "middleValue": 4.666666666666667,
+      "procent": 16.666666666666668,
+      "exam": false,
+      "disRespectful": "1",
+      "respectful": "1",
+      "id": 4
+    },
+    {
+      "lesson": "physics",
+      "middleValue": 4,
+      "procent": 50,
+      "exam": false,
+      "disRespectful": "1",
+      "respectful": "1",
+      "id": 5
+    },
+    {
+      "lesson": "ethics",
+      "middleValue": 4.5,
+      "procent": 28.571428571428573,
+      "exam": false,
+      "disRespectful": "2",
+      "respectful": "2",
+      "id": 6
+    }
+  ]
+}
