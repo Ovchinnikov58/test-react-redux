@@ -20,9 +20,6 @@ You will also see any lint errors in the console.
 ### `json-server --watch db.json --port 8000`
 Open [http://localhost:8000/lessons](http://localhost:3000/lessons) to view it in the browser server.
 
-
-### `npm install -g json-server` (перед запуском нужно установить глобально)
-
 Использованы технологии: React, React-router-dom, Node-sass, json-server
 
 
